@@ -1,0 +1,16 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+
+dlib=19.21.1=pypi_0
+h5py=2.10.0=pypi_0
+imutils=0.5.4=pypi_0
+matplotlib=3.3.4=pypi_0
+numpy=1.19.5=pypi_0
+opencv-contrib-python=4.5.1.48=pypi_0
+opencv-python=4.5.1.48=pypi_0
+pillow=8.1.2=pypi_0
+pip=21.0.1=py37hecd8cb5_0
+python=3.7.10=h88f2d9e_0
+scipy=1.6.1=pypi_0
+
