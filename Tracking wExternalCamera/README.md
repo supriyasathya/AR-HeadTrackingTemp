@@ -1,21 +1,26 @@
 Download the folder "TrackingwExternalCamera" to your Windows/Mac/Ubuntu.
 
 The code was tested on Mac within a conda environment with Python 3.7. Following commands were used to create the environment:
+
 conda create -n py_3_7 python=3.7
+
 conda activate py_3_7
 
 A conda environment is recommended.
 
 List of libraries and packages to be installed are listed in requirements.txt.
+
 For the Python wrapper for Realsense, you can use this command: pip install pyrealsense2
+
 For Opencv-Python, you can use: pip3 install opencv-python and pip3 install opencv-contrib-python
+
 For dlib-python, you can use: pip install dlib
+
 For numpy, use: pip3 install numpy
 
 
 Overview of the scripts in this repo:
-Test_OpenCVHeadPose.py
-Test if Realsense camera is interfaced correctly and head pose estimation using OpenCV works correctly.
+Test_OpenCVHeadPose.py: Test if Realsense camera is interfaced correctly and head pose estimation using OpenCV works correctly.
 
 Test_DlibHeadPose.py: Test if Realsense camera is interfaced correctly and head pose estimation using Dlib works correctly.
 
