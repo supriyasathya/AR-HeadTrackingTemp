@@ -1,6 +1,7 @@
-# This script can be used to test the following:
-# 1. aruco marker detection with Realsense camera
-# 2. calibrate the realsense and AR headset spaces using marker 1, and test the calibration 
+# This script can be used for the following:
+# 1. aruco marker detection with Realsense camera (set socket_connect = 0 to test Realsense tracking Aruco pose only)
+# 2. calibrate the realsense and AR headset spaces using marker 1, and test the calibration by tracking an Aruco marker (set socket_connet = 1). This can be used to
+# perform marker-based head tracking by attaching an Aruco marker to subject's head and tracking. Details in the Google doc.
 
 import numpy as np
 import cv2
