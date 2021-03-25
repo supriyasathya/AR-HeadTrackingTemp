@@ -40,10 +40,10 @@ Includes Kalman filter for pose tracking.
 
 
 arucocalibclass.py  
-An instance of arucocalibclass is called if single Aruco marker is used as Marker 1. 
+#An instance of arucocalibclass is called if single Aruco marker is used as Marker 1. 
 
 charucocalibclass.py
-An instance of charucocalibclass is called if a charuco board is used instead of a single Aruco marker
+#An instance of charucocalibclass is called if a charuco board is used instead of a single Aruco marker
 
 
 charuco_pose.py
