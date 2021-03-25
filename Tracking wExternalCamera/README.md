@@ -17,41 +17,29 @@ Overview of the scripts in this repo:
 Test_OpenCVHeadPose.py
 Test if Realsense camera is interfaced correctly and head pose estimation using OpenCV works correctly.
 
-Test_DlibHeadPose.py
-Test if Realsense camera is interfaced correctly and head pose estimation using Dlib works correctly.
+Test_DlibHeadPose.py: Test if Realsense camera is interfaced correctly and head pose estimation using Dlib works correctly.
 
-OpenCVHeadPoseAR.py
-Calibration and markerless head tracking on AR device using OpenCV Facemark for face detection and facial landmark detection. Head pose is computed using OpenCV solvePnP.
+OpenCVHeadPoseAR.py: Calibration and markerless head tracking on AR device using OpenCV Facemark for face detection and facial landmark detection. Head pose is computed using OpenCV solvePnP.
 
-OpenCVHeadPoseAR_Mean.py
-Calibration and markerless head tracking on AR device using OpenCV Facemark for face detection and facial landmark detection. Head pose is computed using OpenCV solvePnP. Mean of the head pose every few frames is streamed to the AR device to make the tracking smoother than sending the pose every frame.
+OpenCVHeadPoseAR_Mean.py: Calibration and markerless head tracking on AR device using OpenCV Facemark for face detection and facial landmark detection. Head pose is computed using OpenCV solvePnP. Mean of the head pose every few frames is streamed to the AR device to make the tracking smoother than sending the pose every frame.
 
-OpenCVHeadPoseARKalman.py
-Calibration and markerless head tracking on AR device using OpenCV Facemark for face detection and facial landmark detection. Head pose is computed using OpenCV solvePnP.
+OpenCVHeadPoseARKalman.py: Calibration and markerless head tracking on AR device using OpenCV Facemark for face detection and facial landmark detection. Head pose is computed using OpenCV solvePnP.
 Includes Kalman filter for pose tracking.
 
-DlibHeadPoseAR.py
-Calibration and markerless head tracking on AR device using Dlib for face detection and facial landmark detection. Head pose is computed using OpenCV solvePnP.
+DlibHeadPoseAR.py: Calibration and markerless head tracking on AR device using Dlib for face detection and facial landmark detection. Head pose is computed using OpenCV solvePnP.
 
-DlibHeadPoseARKalman.py
-Calibration and markerless head tracking on AR device using Dlib for face detection and facial landmark detection. Head pose is computed using OpenCV solvePnP.
+DlibHeadPoseARKalman.py: Calibration and markerless head tracking on AR device using Dlib for face detection and facial landmark detection. Head pose is computed using OpenCV solvePnP.
 Includes Kalman filter for pose tracking.
 
 
+arucocalibclass.py: An instance of arucocalibclass is called if single Aruco marker is used as Marker 1. 
 
-arucocalibclass.py__  
-An instance of arucocalibclass is called if single Aruco marker is used as Marker 1. 
-
-charucocalibclass.py__
-An instance of charucocalibclass is called if a charuco board is used instead of a single Aruco marker
+charucocalibclass.py: An instance of charucocalibclass is called if a charuco board is used instead of a single Aruco marker
 
 
-charuco_pose.py
-script to check if charuco board pose if being detected correctly when using Realsense.
+charuco_pose.py: script to check if charuco board pose if being detected correctly when using Realsense.
 
-computetrackingerror.py
-script to compute error or change in pose between two transformation matrices.
-
+computetrackingerror.py: script to compute error or change in pose between two transformation matrices.
 
 
 Marker-basedTrackingAR.py
